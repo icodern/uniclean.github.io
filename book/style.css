@@ -60,8 +60,7 @@ span{
 
 .content{
     display: flex;
-    justify-content: space-between;
-    justify-items: center;
+    justify-content: center;
     padding: 29px;
     padding-bottom: 0px;
     margin-top: -1%;
@@ -87,6 +86,7 @@ span{
     background: #FFFFFF;
     box-shadow: -4px 4px 100px rgba(0, 0, 0, 0.1);
     border-radius: 8.6px;
+    margin-left: 3%;
 }
 
 
