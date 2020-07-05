@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+li, a , button{
+    text-decoration: none;
+}
+
+
+/*navigation bar*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 4%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.navl li{
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 15px;
+}
+
+header button{
+    color: white;
+    padding: 9px 25px;
+    background: #FF6584;
+    border: none;
+    border-radius: 15.1px;
+    cursor: pointer;
+}
+
+.logo p{
+    font-weight: normal;
+    font-size: 25px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.active{
+    font-weight: 1000;
+}
+
+.for{
+    padding-top: 20px;
+    width: 420px;
+    height: 680px;
+    background: #FFFFFF;
+    box-shadow: -4px 4px 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8.6px;
+}
+
+
+
+.for p{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 37px;
+    color: rgba(0, 0, 0, 0.5);
+    /* margin-top: 40px; */
+    margin-left: 30px;
+}
+
+
+/*underline*/
+.content img{
+    margin-left: 30px;
+    width: 240px;
+}
+/*end*/
+
+
+
+
+
+
+
+.name{
+    opacity: 0.3;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 360px;
+    height: 50px;   
+    padding: 15px;
+    margin: 10px 0px 10px 30px;
+}
+
+
+.options{
+    opacity: 0.3;
+    border: 1px solid #000000;
+    height: 50px;
+    width: 70px;
+    border-radius: 3px;
+    padding: 10px;
+    font-style: bold;
+    margin: 10px 0px 10px 30px;
+}
+
+.contact{
+    opacity: 0.3;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 3px;
+    width: 277px;
+    height: 50px;   
+    padding: 15px;
+    margin-left: 10px;
+    
+}
+
+#date
+    {
+    
+        opacity: 0.3;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 3px;
+        width: 160px;
+        height: 50px;   
+        padding: 10px;
+        margin: 10px 0px 10px 30px;
+        
+    }
+
+
+
+    .options2{
+        opacity: 0.3;
+        border: 1px solid #000000;
+        height: 50px;
+        width: 188px;
+        border-radius: 3px;
+        padding: 10px;
+        font-style: bold;
+        margin-left: 10px;
+    }
+
+
+
+
+
+
+#address{
+    
+        opacity: 0.3;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 3px;
+        width: 360px;
+        height: 100px;   
+        padding: 15px;
+        margin: 10px 0px 10px 30px;
+    }
+    
+    
+
+
+
+
+.cityy{
+    
+        opacity: 0.3;
+        border: 1px solid #000000;
+        box-sizing: border-box;
+        border-radius: 3px;
+        width: 160px;
+        height: 50px;   
+        padding: 10px;
+        margin: 4px 0px 10px 30px;
+        
+    
+
+}
+
+
+.pincode    {
+    opacity: 0.3;
+    border: 1px solid #000000;
+    height: 50px;
+    width: 188px;
+    border-radius: 3px;
+    padding: 10px;
+    font-style: bold;
+    margin-left: 10px;
+}
+
+
+
+
+.submit{
+    color: white;
+    width: 364px;
+    height: 52px;
+background: #FE6584;
+border-radius: 3px;
+border: none;
+margin: 10px 0px 10px 30px;
+}
+
+
+.container{
+    width: 30%;
+    margin: auto ;
+}
+
+
+.for img{
+    margin-left: 30px;
+}
+
+
+h4{
+    text-align: center;
+    font-size: 13px;
+    font-weight: lighter;
+    
+}
+
+.forgot{
+    color: red;
+}
+
+.container{
+    margin-top: 2%;
+}

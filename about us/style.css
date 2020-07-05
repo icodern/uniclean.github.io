@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+li, a , button{
+    text-decoration: none;
+}
+
+
+/*navigation bar*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 4%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.navl li{
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 15px;
+}
+
+header button{
+    color: white;
+    padding: 9px 25px;
+    background: #FF6584;
+    border: none;
+    border-radius: 15.1px;
+    cursor: pointer;
+}
+
+.logo p{
+    font-weight: normal;
+    font-size: 25px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.active{
+    font-weight: 1000;
+}
+
+/* baloon*/
+
+.ballon img{
+    position: absolute;
+    left: 75%;
+    right: 16.87%;
+    top: 1%;
+    height: 129.54px;
+    width: 103.61px;
+
+
+}
+/*end*/
+
+/* text*/
+
+.atext p{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    line-height:40px;
+    
+color: rgba(0, 0, 0, 0.7);
+
+}
+
+#span{
+    font-size: 35px;
+}
+
+.atext {
+    width: 90%;
+    margin: auto;
+}
+
+section{
+    height: 440px;
+    background-color: #6C63FF;
+    margin-top: 2%;
+    
+}
+
+section img{
+    height: 368.58px;
+    padding-left: 99px;
+    margin-top: 40px;
+}
+
+footer{
+    height: 130px;
+    background-color: #FF6584;
+
+
+}
+
+
+.addresss{
+    font-weight: 100;
+        padding: 20px;
+        padding-left: 50px;
+    }
+    
+    .contactss{
+        padding: 45px 50px 0px 0px;
+    }
+    
+    .copy{
+        padding-top: 90px;
+        padding-right: 50px;
+    }
+
+    footer{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }

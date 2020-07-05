@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+li, a , button{
+    text-decoration: none;
+}
+
+
+/*navigation bar*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 4%;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.navl li{
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 15px;
+}
+
+header button{
+    color: white;
+    padding: 9px 25px;
+    background: #FF6584;
+    border: none;
+    border-radius: 15.1px;
+    cursor: pointer;
+}
+
+.logo p{
+    font-weight: normal;
+    font-size: 25px;
+}
+
+span{
+    font-weight: bold;
+}
+
+.active{
+    font-weight: 1000;
+}
+
+/*navigation bar end*/
+
+
+/*showcase*/
+#showcase h1{
+    font-style: normal;
+    font-weight: 800px;
+    font-size: 40px;
+    width: 752px;
+    color: #343434;
+    margin-left: 7%;
+    margin-top: 4%;
+}
+
+#showcase p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 0.43;
+    width: 655px;
+    margin-left: 7%;
+    margin-top: 1%;
+}
+
+
+
+#showcase .btn1{
+    color: white;
+    width: 170px;
+    height: 52px;
+    background: #FF6584;
+    border: none;
+    border-radius: 15.1px;
+    cursor: pointer;
+    margin-left: 7%;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.btn2{
+    width: 170px;
+    height: 52px;
+    border: 1.45px solid #000000 ;
+    box-sizing: border-box;
+    border-radius: 15.1px;
+    background: none;
+    margin-left: 6%;
+    font-weight: bolder;
+    
+}
+
+#showcase{
+    display: flex;
+    justify-content: space-between;
+}
+
+#showcase img{
+    margin-left: -100%;
+    margin-top: -2%;
+}
+
+.text{
+    margin-top: 2%;
+}
+
+/* showcase end*/
+
+
+/* grid start*/
+
+.cards{
+
+}
+
+.card1{
+    width: 320px;
+    height: 124px;
+    background: #F4F4F4;
+    border-left: 7px #FF6584 solid;
+
+}
+
+.card2{
+    width: 320px;
+    height: 124px;
+    background: #F4F4F4;
+    border-left: 7px #FF6584 solid;
+    
+}
+.card3{
+    width: 320px;
+    height: 124px;
+    background: #F4F4F4;
+    border-left: 7px #FF6584 solid;
+}
+.card4{
+    width: 320px;
+    height: 124px;
+    background: #F4F4F4;
+    border-left: 7px #FF6584 solid;
+}
+.card5{
+    width: 320px;
+    height: 124px;
+    background: #F4F4F4;
+    border-left: 7px #FF6584 solid;
+}
+.card6{
+    width: 320px;
+    height: 124px;
+    background: #F4F4F4;
+    border-left: 7px #FF6584 solid;
+}
+
+.pad{
+    padding: 20px 0px;
+}
+
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 20%;
+}
+
+.grid .limg {
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 4%;
+}
+
+.grid{
+    margin-top: 3%;
+}
+
+/* grid end*/
+
+
+/*footer*/
+
+footer{
+    margin-top: 3.5%;
+    height: 140px;
+    background-color: #FF6584;
+}
+
+
+/* card image*/
+
+
+.cimgg{
+    padding:20px 0px 20px 20px;
+}
+
+
+.card1{
+    display: flex;
+}
+.card2{
+    display: flex;
+}
+.card3{
+    display: flex;
+}
+.card4{
+    display: flex;
+}
+.card5{
+    display: flex;
+}
+.card6{
+    display: flex;
+}
+
+
+
+
+em{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    padding: 30px 20px ;
+}
+
+.card5 em{
+    padding: 20px 20px ;
+}
+
+footer{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.addresss{
+font-weight: 100;
+    padding: 20px;
+    padding-left: 50px;
+}
+
+.contactss{
+    padding: 45px 50px 0px 0px;
+}
+
+.copy{
+    padding-top: 90px;
+    padding-right: 50px;
+}
